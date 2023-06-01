@@ -22,6 +22,29 @@
 </div>
 <br /><br />
 
+<!-- Not logged in Modal -->
+<div
+  class="modal fade"
+  id="notLoggedInModal"
+  tabindex="-1"
+  aria-labelledby="detailsModalLabel"
+  aria-hidden="true"
+>
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5">You must be logged in to bookmark books</h1>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="modal"
+          aria-label="Close"
+        ></button>
+      </div>
+      </div>
+  </div>
+</div>
+
 <!-- Modal -->
 <div
   class="modal fade"
@@ -79,4 +102,8 @@
   </div>
 </div>
 <button id="displayBtn" class="hidden">Display Modal</button>
-<script src="/js/main.js"></script>
+    {{#if logged_in}}
+      <script src="/js/main.js"></script>
+    {{else}}
+        <script src="/js/mainNoLog.js"></script>
+    {{/if}}

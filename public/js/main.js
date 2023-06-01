@@ -90,6 +90,8 @@ async function getData(query, startIndex) {
 
   const bookmarkBtns = document.getElementsByClassName("bookmarkBtn");
   for (let i = 0; i < bookmarkBtns.length; i++) {
+//ADD LOGIC TO PROMPT USER TO LOGIN IN, ELSE DO THE FOLLOWING
+
     bookmarkBtns[i].addEventListener("click", function () {
       const bookIndex = i;
       const book = bookData[bookIndex];

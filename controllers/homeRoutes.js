@@ -3,7 +3,7 @@ const { Books, Users } = require("../models");
 const withAuth = require("../utils/auth");
 
 // Route the main page URL to the login page
-router.get("/", withAuth, async (req, res) => {
+router.get("/", async (req, res) => {
   try {
     res.render("homepage", {
       logged_in: req.session.logged_in,

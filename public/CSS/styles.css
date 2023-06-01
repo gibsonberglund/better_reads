@@ -1,6 +1,20 @@
 body {
-  background-color: rgb(229, 229, 229);
+  /* background-color: rgb(229, 229, 229); */
+  background-image: url("../img/360_F_340078386_ml0zNMOmTeRADqnRfD3dJmynv7Ah8HLk.jpg");
+  background-size: contain;
 }
+
+.sitetitle {
+  font-family: 'Special Elite', cursive;
+  color: white;
+  text-align: center;
+  margin: 1%;
+}
+
+.typewriterfont {
+  font-family: 'Special Elite', cursive;
+}
+
 .form-input[type="text"] {
   padding: 10px;
   font-size: 16px;
@@ -11,7 +25,8 @@ body {
   margin-bottom: 20px;
 }
 .navbar {
-  background-color: rgb(147, 147, 147);
+  /* background-color: rgb(147, 147, 147); */
+  background-image: url("../img/24-Photoshop-How-To-Make-An-Awesome-Grungy-Paper-Texture-From-Scratch.jpg");
   height: 75px;
 }
 .navbar-brand {
@@ -32,6 +47,8 @@ body {
   width: 250px;
   height: 450px;
   margin: 30px;
+  background-image: url("../img/istockphoto-471194615-612x612.jpg");
+  background-size: contain;
   border: 1px solid lightgray;
   padding-bottom: 50px;
 }
@@ -47,10 +64,12 @@ body {
 .card-title {
   margin-top: -10px;
   font-size: 14px;
+  color: white;
 }
 .moreBtn {
   border-radius: 0px;
-  background-color: rgb(89, 89, 89);
+  /* background-color: rgb(89, 89, 89); */
+  background-image: url("../img/24-Photoshop-How-To-Make-An-Awesome-Grungy-Paper-Texture-From-Scratch.jpg");
   border: 1px solid lightgray;
   margin-top: 5px;
   width: 125px;
@@ -64,6 +83,8 @@ li {
 .modal-content {
   max-width: 100%; /* set maximum width */
   margin: 0 auto; /* center horizontally */
+  background-image: url("../img/24-Photoshop-How-To-Make-An-Awesome-Grungy-Paper-Texture-From-Scratch.jpg");
+  color: white;
 }
 #exampleModal .modal-body img {
   width: 100%;

@@ -4,13 +4,15 @@
 
 body {
   /* background-color: rgb(229, 229, 229); */
-  background-image: url("../img/360_F_340078386_ml0zNMOmTeRADqnRfD3dJmynv7Ah8HLk.jpg");
-  background-size: contain;
+  background-image: url("../img/wepik-export-20230602001413tGK8.png");
+  background-size: cover;
 }
 
 .sitetitle {
   font-family: 'Special Elite', cursive;
   color: white;
+  display: flex;
+  justify-content: center;
   text-align: center;
   margin: 1%;
 }
@@ -30,7 +32,8 @@ body {
 }
 .navbar {
   /* background-color: rgb(147, 147, 147); */
-  background-image: url("../img/24-Photoshop-How-To-Make-An-Awesome-Grungy-Paper-Texture-From-Scratch.jpg");
+  background-image: url("../img/grunge-paper-background.jpg");
+  background-size: cover;
   height: 75px;
 }
 .navbar-brand {
@@ -51,7 +54,7 @@ body {
   width: 250px;
   height: 450px;
   margin: 30px;
-  background-image: url("../img/istockphoto-471194615-612x612.jpg");
+  background-image: url("../img/book-with-cover-red-color-isolated-white-background.jpg");
   background-size: contain;
   border: 1px solid lightgray;
   padding-bottom: 50px;
@@ -73,7 +76,7 @@ body {
 .moreBtn {
   border-radius: 0px;
   /* background-color: rgb(89, 89, 89); */
-  background-image: url("../img/24-Photoshop-How-To-Make-An-Awesome-Grungy-Paper-Texture-From-Scratch.jpg");
+  background-image: url("../img/grunge-paper-background.jpg");
   border: 1px solid lightgray;
   margin-top: 5px;
   width: 125px;
@@ -87,7 +90,7 @@ li {
 .modal-content {
   max-width: 100%; /* set maximum width */
   margin: 0 auto; /* center horizontally */
-  background-image: url("../img/24-Photoshop-How-To-Make-An-Awesome-Grungy-Paper-Texture-From-Scratch.jpg");
+  background-image: url("../img/book-with-cover-red-color-isolated-white-background.jpg");
   color: white;
 }
 #exampleModal .modal-body img {
@@ -128,12 +131,37 @@ a {
 #resultsContainer p {
   text-align: center;
 }
+
+.login-signup-container {
+  display: flex;
+  justify-content: center;
+}
+
+.login-signup-subcontainer {
+  display: block;
+}
+
+#login-signup {
+  padding: 5%;
+  font-size: 18px;
+  background-image: url("../img/grunge-paper-background.jpg");
+  border-radius: 15px;
+}
+
 .form {
   position: relative;
   text-align: center;
+  color: white;
+  font-family: 'Crimson Pro', serif;
 }
 
-#logBtn {
+.btn {
+  background-image: url("../img/book-with-cover-red-color-isolated-white-background.jpg");
+  background-size: cover;
+  color: white;
+}
+
+/* #logBtn {
   display: inline-block;
   padding-right: 17px;
   padding-top: 6px;
@@ -149,7 +177,7 @@ a {
   background-color: rgb(147, 147, 147);
   border: rgb(147, 147, 147);
   color: black;
-}
+} */
 
 .pag-btns {
   justify-content: center;

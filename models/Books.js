@@ -47,6 +47,10 @@ Books.init(
         key: "user_id",
       },
     },
+    // user_rating: {
+    //   type: DataTypes.INTEGER,
+    //   allowNull: true,
+    // }
   },
   {
     sequelize,

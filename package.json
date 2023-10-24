@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/moxamadfarax/bookly.git"
+    "url": "git+https://github.com/gibsonberglund/better-reads.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/moxamadfarax/bookly/issues"
+    "url": "https://github.com/gibsonberglund/better-reads/issues"
   },
-  "homepage": "https://github.com/moxamadfarax/bookly#readme",
+  "homepage": "https://github.com/gibsonberglund/better-reads#readme",
   "dependencies": {
     "-": "^0.0.1",
     "bcrypt": "^5.1.0",
